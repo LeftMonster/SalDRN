@@ -2,7 +2,7 @@ import importlib
 import os
 from os import path as osp
 
-from litsr import create_data_module
+from litsr.data import create_data_module
 
 # Import all datamodules
 folder = osp.dirname(osp.abspath(__file__))
